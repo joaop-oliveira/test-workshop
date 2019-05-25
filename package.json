@@ -1,0 +1,53 @@
+{
+  "name": "test-workshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-react-buttons": "^2.11.0",
+    "@progress/kendo-react-dateinputs": "^2.11.0",
+    "@progress/kendo-react-dropdowns": "^2.11.0",
+    "@progress/kendo-react-inputs": "^2.11.0",
+    "@progress/kendo-react-intl": "^2.11.0",
+    "@progress/kendo-react-layout": "^2.11.0",
+    "@progress/kendo-theme-default": "^3.6.1",
+    "@reach/router": "^1.2.1",
+    "@types/jest": "24.0.13",
+    "@types/node": "12.0.2",
+    "@types/react": "16.8.18",
+    "@types/react-dom": "16.8.4",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "typescript": "3.4.5"
+  },
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/reach__router": "^1.2.4",
+    "cypress": "^3.3.1",
+    "prettier": "^1.17.1"
+  }
+}
